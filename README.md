@@ -1,2 +1,2 @@
-# interview-code-challenges
- Various interview code challenges
+# Overview
+ This repo has notes and implementations for various interview code challenges.
