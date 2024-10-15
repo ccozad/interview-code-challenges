@@ -1,5 +1,14 @@
 # Overview
+
 This programming challenge is to implement the addition algorithm on an array of digits. There might be many digits that are large than what can fit in number for a language. To simplify we'll only handle adding one.
+
+# General Approach
+
+Implement the grade school algorithm for adding large numbers by hand.
+
+1. Add one to the rightmost digit, note any carry
+2. Keep adding the carry to each digit to the left
+3. Add a zero to the rightmost position if there is a carry left over (99 becomes 100)
 
 # Run
 

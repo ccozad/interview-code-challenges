@@ -2,6 +2,12 @@
 
 Given two lowercase strings, return true if the strings are an anagram of each other, otherwise false. An anagram uses the same characters in a different order.
 
+# General Approach
+
+1. Compare the lengths, strings of different length can't be an anagram
+2. Enumerate the characters in the string, count how many times each letter appears in each input
+3. Compare the letter counts for each string
+
 # Run
 
 Execute the runner script
